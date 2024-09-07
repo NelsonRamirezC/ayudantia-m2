@@ -1,39 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ayudantía m2</title>
 
     <!-- BOOTSTRAP CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- BOOTSTRAP JS -->
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script defer src="./assets/js/script.js"></script>
 
     <link rel="stylesheet" href="./assets/css/styles.css">
 
 </head>
+
 <body>
     <!-- INICIO NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-success navbar-dark" id="navbar">
         <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#presentacion">Presentacion</a>
-              </li>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#presentacion">Presentacion</a>
+                    </li>
+                    <li class="nav-item">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mis-trabajos">Mis trabajos</a>
+                    </li>
+                    </li>
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
 
     <!-- FIN NAVBAR -->
 
@@ -57,8 +72,12 @@
                     <h2 class="text-center pb-5">Presentación</h2>
                 </div>
                 <div class="presentacion-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptatem laboriosam placeat! Et nostrum inventore debitis iusto quaerat tempore laborum in non ea sunt. Cumque, aut? Voluptate laborum reiciendis neque.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptatem laboriosam placeat! Et nostrum inventore debitis iusto quaerat tempore laborum in non ea sunt. Cumque, aut? Voluptate laborum reiciendis neque.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptatem laboriosam placeat! Et
+                        nostrum inventore debitis iusto quaerat tempore laborum in non ea sunt. Cumque, aut? Voluptate
+                        laborum reiciendis neque.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptatem laboriosam placeat! Et
+                        nostrum inventore debitis iusto quaerat tempore laborum in non ea sunt. Cumque, aut? Voluptate
+                        laborum reiciendis neque.</p>
                 </div>
             </div>
         </section>
@@ -75,51 +94,119 @@
                     <div class="row g-3 justify-content-evenly">
                         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                             <div class="card" style="width: 100%;">
-                                <img src="..." class="card-img-top" alt="...">
+                                <img src="https://picsum.photos/id/802/600/400" class="card-img-top" alt="..."
+                                data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Proyecto de finanzas"
+                                >
                                 <div class="card-body">
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                        <button class="btn btn-primary"  data-bs-placement="bottom" data-bs-toggle="popover" data-bs-title="Detalle del proyecto" data-bs-content="Este proyecto lo desarrollé en mi bootcamp de JavaScript">Ver detalle</button>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                             <div class="card" style="width: 100%;">
-                                <img src="..." class="card-img-top" alt="...">
+                                <img src="https://picsum.photos/id/803/600/400" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                        <button class="btn btn-primary"  data-bs-placement="bottom" data-bs-toggle="popover" data-bs-title="Detalle del proyecto" data-bs-content="Este proyecto lo desarrollé en mi bootcamp de JavaScript">Ver detalle</button>
                                 </div>
-                              </div>
+                            </div>
                         </div>
 
                         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                             <div class="card" style="width: 100%;">
-                                <img src="..." class="card-img-top" alt="...">
+                                <img src="https://picsum.photos/id/804/1024/960" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                        <button class="btn btn-primary"  data-bs-placement="bottom" data-bs-toggle="popover" data-bs-title="Detalle del proyecto" data-bs-content="Este proyecto lo desarrollé en mi bootcamp de JavaScript">Ver detalle</button>
                                 </div>
-                              </div>
+                            </div>
                         </div>
 
 
                         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                             <div class="card" style="width: 100%;">
-                                <img src="..." class="card-img-top" alt="...">
+                                <img src="https://picsum.photos/id/805/800/600" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                        <button class="btn btn-primary"  data-bs-placement="bottom" data-bs-toggle="popover" data-bs-title="Detalle del proyecto" data-bs-content="Este proyecto lo desarrollé en mi bootcamp de JavaScript">Ver detalle</button>
                                 </div>
-                              </div>
+                            </div>
                         </div>
 
-                        
+
                     </div>
                 </div>
             </div>
         </section>
-
-
         <!-- FIN SECCIÓN MIS TRABAJOS -->
+
+
+        <!-- INICIO SECCION CONTACTO -->
+
+        <section id="contacto" class="py-5 bg-secondary-subtle"></section>
+        <div class="container">
+            <div class="contacto-titulo">
+                <h2 class="text-center py-5">Ponte en contacto conmigo</h2>
+            </div>
+            <div class="contacto-body py-2">
+                <form class="w-50 mx-auto" id="form-contacto">
+                    <div>
+                        <label for="contacto-nombre" class="form-label">Ingresa tu nombre: </label>
+                        <input type="text" required class="form-control" id="contacto-nombre" name="nombre">
+                    </div>
+                    <div>
+                        <label for="contacto-asunto" class="form-label">Asunto: </label>
+                        <input type="text" required class="form-control" id="contacto-asunto" name="asunto">
+                    </div>
+                    <div>
+                        <label for="contacto-email" class="form-label">Email de contacto: </label>
+                        <input type="email" required class="form-control" id="contacto-email" name="email">
+                    </div>
+                    <div>
+                        <label for="contacto-mensaje" class="form-label">Mensaje: </label>
+                        <textarea name="mensaje" id="contacto-mensaje" class="form-control" rows="5"
+                            required></textarea>
+                    </div>
+                    <div class="py-3">
+                        <input type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-contacto">
+                    </div>
+                </form>
+            </div>
+        </div>
+        </section>
+
+        <!-- FIN SECCCION CONTACTO -->
     </main>
 
     <!-- FIN  MAIN-->
-    
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal-contacto" tabindex="-1" aria-labelledby="modal-contactoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modal-contactoLabel">Mensaje</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p id="mensaje-modal"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
