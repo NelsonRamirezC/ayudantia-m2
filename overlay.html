@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .tarjeta {
+            width: 500px;
+            height: 350px;
+            background-color: bisque;
+            border: 1px solid black;
+            background-image: url("https://picsum.photos/id/684/600/400");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+
+        .tarjeta .tarjeta-titulo h3{
+            color: white;
+            text-align: center;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="tarjeta" id="tarjeta1">
+        <div class="tarjeta-titulo">
+            <h3 id="titulo-tarjeta-1">Titulo</h3>
+        </div>
+        
+    </div>
+    
+
+    <script>
+        const tarjeta1 = document.getElementById("tarjeta1")
+
+        tarjeta1.addEventListener("click", () => {
+            let titulo = document.getElementById("titulo-tarjeta-1")
+
+            if(titulo.style.opacity == 1){
+                titulo.style.opacity = 0
+            }else{
+                titulo.style.opacity = 1
+            }
+        })
+
+    </script>
+</body>
+</html>

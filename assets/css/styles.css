@@ -2,3 +2,9 @@
     width: 100%;
     aspect-ratio: 3/2;
 }
+
+
+.icons-contacto i{
+    font-size: 30px;
+    color: white;
+}
